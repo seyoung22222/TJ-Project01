@@ -19,7 +19,6 @@ public class AutoSaver extends Thread {
 				sleep(5000);
 			}
 			catch (InterruptedException e) {
-				System.err.println("자동저장을 종료합니다.");
 				break;
 			}
 		}

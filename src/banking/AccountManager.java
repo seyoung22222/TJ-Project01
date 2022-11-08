@@ -336,6 +336,7 @@ public class AccountManager {
 			}
 			else if(thread==2) {
 					save.interrupt();
+					System.err.println("자동저장을 종료합니다.");
 			}else {
 				MenuSelectException ex = new MenuSelectException();
 				throw ex;
